@@ -5,7 +5,7 @@ import App from './app';
 
 describe('Componente principal', () => {
   describe('Quando eu abro o app do banco', () => {
-    test('o nome é exibido', () => {
+    it('o nome é exibido', () => {
       render(<App />);
   
       expect(screen.getByText('ByteBank')).toBeInTheDocument();

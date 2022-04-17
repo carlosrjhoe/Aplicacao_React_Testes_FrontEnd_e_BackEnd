@@ -38,4 +38,10 @@
 - Testar uma requisição para um endpoint.
 - Simular uma função e em quais casos de teste isso pode ser útil.
 
+# Aula 05:
 
+## O que aprendemos nessa aula:
+
+- Entender a pirâmide de testes.
+- Os tipos de teste mais comuns no backend e frontend: unitário, integração e end to end.
+- Analisar situações em que criamos testes automatizados para identificar situações em que o custo do testes podem ser maior do que seus benefícios: Testes a/b, código descartável, provas de conceito.
