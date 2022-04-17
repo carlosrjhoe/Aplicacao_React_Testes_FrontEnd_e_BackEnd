@@ -30,6 +30,7 @@ const atualizaTransacoes = (dados) => conecta(TRANSACOES_URI, {
   body: JSON.stringify(dados),
 });
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   listaTransacoes,
   buscaSaldo,
