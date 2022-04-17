@@ -27,4 +27,15 @@
 - Renderizar um componente React.
 - Acessar o componente renderizado.
 
+# Aula 04:
+
+## O que aprendemos nessa aula:
+
+- Entender o que são queries do React Testing Library e com o usá-las no seu teste.
+- Entender o que é um mock e como utilizá-lo.
+- Simular o valor de retorno de uma função.
+- Simular um teste de código assíncrono.
+- Testar uma requisição para um endpoint.
+- Simular uma função e em quais casos de teste isso pode ser útil.
+
 
