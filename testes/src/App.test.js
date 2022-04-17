@@ -1,10 +1,24 @@
-import { render, screen } from '@testing-library/react';
 import React from 'react';
-import App from './App';
+import { render, screen } from '@testing-library/react';
+
+import App from './app';
 
 describe('Componente principal', () => {
-  it('Mostrar o nome do banco', () => {
-    render(<App/>);
-    expect(screen.getByText('Learn React')).toBeInTheDocument();
+  describe('Quando eu abro o app do banco', () => {
+    test('o nome é exibido', () => {
+      render(<App />);
+  
+      expect(screen.getByText('ByteBank')).toBeInTheDocument();
+    })
+    it('o saldo é exibido', () => {
+      render(<App />);
+    
+      expect(screen.getByText('Saldo:')).toBeInTheDocument();
+    })
+    it('o botão de realizar transação é exibido', () => {
+      render(<App />);
+  
+      expect(screen.getByText('Realizar operação')).toBeInTheDocument();
+    })
   })
 })
